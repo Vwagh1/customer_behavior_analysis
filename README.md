@@ -1,6 +1,7 @@
 # customer_behavior_analysis
 
  Customer Shopping Behavior Analysis
+ 
 🧭Overview
 
 This project presents a complete data analytics pipeline analyzing customer shopping behavior using transaction-level data. It explores how demographics, product categories, discounts, and subscriptions influence spending.
