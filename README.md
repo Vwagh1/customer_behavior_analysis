@@ -8,6 +8,7 @@ This project presents a complete data analytics pipeline analyzing customer shop
 
 The workflow integrates Python (EDA & Cleaning), SQL (Business Queries), and Power BI (Visualization) to deliver actionable business insights and recommendations.
 
+
 📊 Dataset
 
 Dataset Summary
