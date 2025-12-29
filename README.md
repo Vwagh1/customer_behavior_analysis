@@ -2,14 +2,14 @@
 
  Customer Shopping Behavior Analysis
  
-🧭Overview
+### 🧭Overview
 
 This project presents a complete data analytics pipeline analyzing customer shopping behavior using transaction-level data. It explores how demographics, product categories, discounts, and subscriptions influence spending.
 
 The workflow integrates Python (EDA & Cleaning), SQL (Business Queries), and Power BI (Visualization) to deliver actionable business insights and recommendations.
 
 
-📊 Dataset
+### 📊 Dataset
 
 Dataset Summary
 
@@ -18,7 +18,7 @@ Rows: 3,900
 Columns: 18
 
 
-Key Features:
+### Key Features:
 
 🧑‍🤝‍🧑 Demographics: Age, Gender, Location, Subscription Status
 
@@ -33,7 +33,7 @@ Average Purchase Amount: $59.76
 Age Range: 18 to 70 years
 
 
-🧰 Tools & Technologies
+### 🧰 Tools & Technologies
 Category	Tools / Libraries
 Programming & Data Analysis	Python (Pandas, NumPy, Matplotlib, Seaborn)
 Database Management	PostgreSQL / MySQL / SQL Server
@@ -41,8 +41,8 @@ Data Visualization	Power BI
 Reporting	Gamma App
 Environment	Jupyter Notebook / VS Code
 
-⚙️ Project Workflow
-1️⃣ Data Preparation in Python
+### ⚙️ Project Workflow
+### 1️⃣ Data Preparation in Python
 
 Loaded dataset using pandas
 
@@ -51,7 +51,7 @@ Explored structure and summary statistics (.info(), .describe())
 Detected missing values and handled them appropriately
 
 
-2️⃣ Data Cleaning & Feature Engineering
+### 2️⃣ Data Cleaning & Feature Engineering
 
 Imputed missing ratings with category-wise median values
 
@@ -66,7 +66,7 @@ purchase_frequency_days (derived from transaction timestamps)
 Checked redundancy between discount_applied and promo_code_used (removed one)
 
 
-3️⃣ SQL-Based Business Insights
+### 3️⃣ SQL-Based Business Insights
 
 After cleaning, the dataset was uploaded to PostgreSQL for deeper business analysis.
 
@@ -85,11 +85,11 @@ Question	Description
 10. Revenue by Age Group	Calculated total contribution by age segments.
 
     
-📈 Power BI Dashboard
+### 📈 Power BI Dashboard
 
 The Power BI dashboard visualizes the findings with interactive filters for Subscription, Gender, Category, and Shipping Type.
 
-📸 Dashboard Preview:
+### 📸 Dashboard Preview:
 
 Dashboard Highlights:
 
@@ -106,7 +106,7 @@ Top Categories by Revenue: Clothing → Accessories → Footwear
 Young Adults lead in both sales and revenue
 
 
-💡 Key Insights
+### 💡 Key Insights
 
 Clothing is the highest revenue-generating category.
 
@@ -119,7 +119,7 @@ Discounts improve sales volume but lower profit margins.
 Young adults are the most valuable customer segment.
 
 
-🧩 Business Recommendations
+### 🧩 Business Recommendations
 
 Promote Subscriptions: Offer incentives for regular buyers.
 
@@ -134,7 +134,7 @@ Targeted Marketing: Focus ads on high-value age groups and express shipping user
 
 
 
-🚀 Future Enhancements
+### 🚀 Future Enhancements
 
 Automate Power BI data refresh via cloud connection
 
